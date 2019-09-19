@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item android:id="@+id/nav_item_world"
+            android:icon="@drawable/ic_earth_grey600_24dp"
+            android:title="@string/nav_section_name_world" />
+        <item android:id="@+id/nav_item_business"
+            android:icon="@drawable/ic_bank_grey600_24dp"
+            android:title="@string/nav_section_name_business" />
+        <item android:id="@+id/nav_item_travel"
+            android:icon="@drawable/ic_airplane_takeoff_grey600_24dp"
+            android:title="@string/nav_section_name_travel" />
+        <item android:id="@+id/nav_item_technology"
+            android:icon="@drawable/ic_android_grey600_24dp"
+            android:title="@string/nav_section_name_technology" />
+        <item android:id="@+id/nav_item_science"
+            android:icon="@drawable/ic_microscope_grey600_24dp"
+            android:title="@string/nav_section_name_science" />
+        <item android:id="@+id/nav_item_sport"
+            android:icon="@drawable/ic_soccer_grey600_24dp"
+            android:title="@string/nav_section_name_sport" />
+    </group>
+    <group android:id="@+id/group_menu">
+        <item android:id="@+id/nav_item_settings"
+            android:icon="@drawable/ic_settings_grey600_24dp"
+            android:title="@string/nav_section_name_settings" />
+        <item android:id="@+id/nav_item_about"
+            android:icon="@drawable/ic_information_grey600_24dp"
+            android:title="@string/nav_section_name_about" />
+    </group>
+</menu>

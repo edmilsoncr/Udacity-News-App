@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">News App</string>
+    <string name="nav_header_title">The Guardian</string>
+    <string name="open_drawer">Open</string>
+    <string name="close_drawer">Close</string>
+    <string name="no_internet">No internet connection</string>
+    <string name="no_earthquakes">No news found</string>
+
+    <!-- Sections name/navigation bar labels -->
+    <string name="nav_section_name_world">World</string>
+    <string name="nav_section_name_business">Business</string>
+    <string name="nav_section_name_travel">Travel</string>
+    <string name="nav_section_name_technology">Technology</string>
+    <string name="nav_section_name_science">Science</string>
+    <string name="nav_section_name_sport">Sport</string>
+    <string name="nav_section_name_settings">Settings</string>
+    <string name="nav_section_name_about">About</string>
+
+    <!-- Sections name for the url -->
+    <string name="url_section_name_world">world</string>
+    <string name="url_section_name_business">business</string>
+    <string name="url_section_name_travel">travel</string>
+    <string name="url_section_name_technology">technology</string>
+    <string name="url_section_name_science">science</string>
+    <string name="url_section_name_sport">sport</string>
+
+
+    <!-- Configuration Menu Item -->
+    <string name="settings_menu_item">Settings</string>
+    <!-- SettingsActivity title -->
+    <string name="settings_title">News Settings</string>
+
+    <!-- Strings related to Settings -->
+    <!-- Strings For News quantity Preference [CHAR LIMIT=30] -->
+    <string name="settings_news_quantity_label">News quantity</string>
+    <string name="settings_news_quantity_key" translatable="false">news_quantity</string>
+    <string name="settings_news_quantity_default" translatable="false">10</string>
+
+    <!-- Strings for the Order-By Preferences -->
+    <string name="settings_order_by_label">Order By</string>
+    <string name="settings_order_by_key" translatable="false">order_by</string>
+    <string name="settings_order_by_default" translatable="false">@string/settings_order_by_newest_value</string>
+
+    <!-- Label for the order-by newest option -->
+    <string name="settings_order_by_newest_label">Newest</string>
+    <string name="settings_order_by_newest_value" translatable="false">newest</string>
+
+    <!-- Label for the order-by oldest option -->
+    <string name="settings_order_by_oldest_label">Oldest</string>
+    <string name="settings_order_by_oldest_value" translatable="false">oldest</string>
+
+    <!-- Label for the order-by relevance option -->
+    <string name="settings_order_by_relevance_label">Relevance</string>
+    <string name="settings_order_by_relevance_value" translatable="false">relevance</string>
+    <string name="title_activity_settings">Settings</string>
+
+
+
+
+</resources>
